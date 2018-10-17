@@ -8,6 +8,6 @@ def display_board(position=" ")
   puts " #{position[6]} | #{position[7]} | #{position[8]} "
 end  
 
-moves=[x, o, x, o, o, x, x, o,x]
+board=["x", "o", "x", "o", "o", "x", "x", "o", "x"]
 
-display_board(moves)
+display_board(board)
